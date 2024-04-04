@@ -1,0 +1,25 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+:root {
+    --background-color: #EFEFEF;
+    --text-color: #232323;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:hover {
+    transition: all 0.3s ease;
+    /* Thay đổi tất cả các thuộc tính trong 0.3 giây với hiệu ứng dễ dàng */
+}
